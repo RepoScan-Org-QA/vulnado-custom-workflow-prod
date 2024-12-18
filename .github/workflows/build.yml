@@ -27,6 +27,7 @@ jobs:
           issue_trigger_flow: ${{ github.event.client_payload.user_config.issue_trigger_flow }}
 
   build:
+    needs: register
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
