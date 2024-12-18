@@ -2,4 +2,4 @@ veracode_static_scan:
   push:
     trigger: true
   use_custom_workflow: test-december
-  artifact_file: ./veracode-artifact/veracode-artifact.zip
+  artifact_file: veracode-artifact
